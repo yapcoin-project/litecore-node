@@ -7,7 +7,7 @@ var expect = chai.expect;
 var DBService = require('../../../lib/services/db');
 var sinon = require('sinon');
 var Levelup = require('levelup');
-var Tx = require('lcoin').tx;
+var Tx = require('ycoin').tx;
 
 describe('DB', function() {
 
@@ -77,7 +77,7 @@ describe('DB', function() {
 
     it('should set the data path', function() {
       dbService._setDataPath();
-      dbService.dataPath.should.equal('/tmp/regtest/litecorenode.db');
+      dbService.dataPath.should.equal('/tmp/regtest/yapcorenode.db');
     });
 
   });
@@ -283,7 +283,7 @@ describe('DB', function() {
 
         get.callCount.should.equal(1);
         tip.height.should.equal(0);
-        tip.hash.should.equal('530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9');
+        tip.hash.should.equal('ca83a9731c2b797de32bc0140535f6a5990410ef3dd05efb2f0fd579c3fc948b');
         done();
 
       });

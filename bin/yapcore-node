@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var yapcore = require('../lib/cli/bitcore');
+yapcore();

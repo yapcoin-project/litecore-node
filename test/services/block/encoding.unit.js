@@ -1,7 +1,7 @@
 'use strict';
 
 var should = require('chai').should();
-var Block = require('lcoin').block;
+var Block = require('ycoin').block;
 
 var Encoding = require('../../../lib/services/block/encoding');
 

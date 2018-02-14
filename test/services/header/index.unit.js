@@ -7,10 +7,10 @@ var assert = chai.assert;
 var expect = chai.expect;
 var Encoding  = require('../../../lib/services/header/encoding');
 var utils = require('../../../lib/utils');
-var Block = require('litecore-lib').Block;
+var Block = require('yapcore-lib').Block;
 var BN = require('bn.js');
 var Emitter = require('events').EventEmitter;
-var bcoin = require('lcoin');
+var bcoin = require('ycoin');
 
 describe('Header Service', function() {
 

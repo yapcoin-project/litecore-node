@@ -1,38 +1,38 @@
 {
-  "name": "litecore-node",
-  "description": "Full node with extended capabilities using Litecore and Litecoin Core",
+  "name": "yapcore-node",
+  "description": "Full node with extended capabilities using Yapcore and Yapcoin Core",
   "engines": {
     "node": ">=8.0.0"
   },
   "author": "BitPay <dev@bitpay.com>",
   "version": "5.0.0-beta.41",
   "main": "./index.js",
-  "repository": "git://github.com/litecoin-project/litecore-node.git",
-  "homepage": "https://github.com/litecoin-project/litecore-node",
+  "repository": "git://github.com/yapcoin-project/yapcore-node.git",
+  "homepage": "https://github.com/yapcoin-project/yapcore-node",
   "bugs": {
-    "url": "https://github.com/litecoin-project/litecore-node/issues"
+    "url": "https://github.com/yapcoin-project/yapcore-node/issues"
   },
   "bin": {
-    "litecore-node": "./bin/litecore-node"
+    "yapcore-node": "./bin/yapcore-node"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --recursive test"
   },
   "tags": [
-    "litecoin",
-    "litecoind",
-    "lcoin",
-    "litecoin full node",
-    "litecoin index",
+    "yapcoin",
+    "yapcoind",
+    "ycoin",
+    "yapcoin full node",
+    "yapcoin index",
     "block explorer",
     "wallet backend"
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "lcoin": "https://github.com/ultragtx/lcoin#for-litecore-v5.0",
-    "litecoind-rpc": "^0.7.1",
-    "litecore-lib": "https://github.com/litecoin-project/litecore-lib#v5.0",
-    "litecore-p2p": "https://github.com/litecoin-project/litecore-p2p#v5.0",
+    "ycoin": "https://github.com/yapcoin-project/ycoin#for-yapcore-v5.0",
+    "yapcoind-rpc": "^0.7.1",
+    "yapcore-lib": "https://github.com/yapcoin-project/yapcore-lib#v5.0",
+    "yapcore-p2p": "https://github.com/yapcoin-project/yapcore-p2p#v5.0",
     "bn.js": "^4.11.8",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
